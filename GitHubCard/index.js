@@ -3,6 +3,9 @@
            https://api.github.com/users/<your name>
 */
 
+const user = axios.get('https://api.github.com/users/agordon1123')
+console.log('axios request', user)
+
 /* Step 2: Inspect and study the data coming back, this is YOUR 
    github info! You will need to understand the structure of this 
    data in order to use it to build your component function 
